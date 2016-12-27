@@ -5,8 +5,8 @@ from email.mime.text import MIMEText
 
 class sendMail():
     
-    from_mail = 'insta360_test@163.com'
-    from_passwd = 'insta360'
+    from_mail = 'xxt@163.com'
+    from_passwd = 'xxxx'
     smtp_adress = 'smtp.163.com'
     
     def __init__(self,send_list):
@@ -24,5 +24,5 @@ class sendMail():
         mailServer.quit()
 
 if __name__ == '__main__':
-    send_list = ['chenzhe@arashivision.com']
+    send_list = ['xxx@xx.com']
     sendMail(send_list).send("xx测试报告", "我是内容,第一行\n我是第二行\n我是第三行")        
